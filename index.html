@@ -80,7 +80,35 @@ hr {
     <p></p>
   </div>
 </div>
-
+<table width=450 cellpadding=0 cellspacing=1 bgcolor=#808080>
+<form action="user.php" method=post>
+<tr><td colspan=3 bgcolor=#B9F4C7 height=25 align=center>
+Обратная связь</td></tr>
+<tr bgcolor=#D1EFFA>
+<td height=30 width=150 align=center> Ваше имя: *</td>
+<td bgcolor=#D1EFFA> <input type=text name=name size=50></td>
+</tr>
+<tr bgcolor=#D1EFFA>
+<td height=30 align=center> Ваш email: *</td>
+<td bgcolor=#D1EFFA> <input type=text name=email size=50></td>
+</tr>
+<tr bgcolor=#D1EFFA>
+<td height=30 align=center> Ваш сайт:</td>
+<td bgcolor=#D1EFFA> <input type=text name=domain size=50></td>
+</tr>
+<tr bgcolor=#D1EFFA>
+<td height=30 colspan=2>
+<table width=100% cellpadding=15 cellspacing=5><tr><td>
+Ваше сообщение: *
+<textarea cols=50 rows=5 name=message></textarea>
+</td></tr></table>
+</td>
+</tr>
+<tr><td colspan=2 bgcolor=#B9F4C7 height=35 align=center>
+<input type="submit" value="Отправить вопрос"></td></tr>
+<input type=hidden name=a value=1>
+</form>
+</table>
 
 <script>
 // Set the date we're counting down to
