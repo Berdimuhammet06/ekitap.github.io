@@ -1,3 +1,5 @@
+<html>
+<body>
 <code><?
 
 function show_form($s="") {
@@ -41,3 +43,5 @@ else $result=(mail($recipients, $subject, $body, "from: ".$from."rn".$headers) ?
 if ($result) echo "Сообщение не было отправлено!";
 else echo "Спасибо, Ваше сообщение отправлено. Администратор свяжется с Вами в ближайшее время!";
 ?></code>
+</body>
+</html>
